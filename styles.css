@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    background: white;
+    padding: 20 px;
+    border-radius:  10px;
+    box-shadow:  0 2px 10px rgba(0, 0, 0, 1);
+}
+
+.mic-button{
+    padding: 10px 20px;
+    font-size: 16 px;
+    border: none;
+    border-radius:  5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.mic-button.active{
+    background-color: #28a745;
+}
+
+#result {
+    margin-top:  20px;
+    font-size: 18 px;
+}
+
+.reset-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #ff1a1a;
+}
+
+.save-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+#saved-content {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.food-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.food, .food-expenses, .transport {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.food {
+    flex: 2; /* Chiếm phần lớn diện tích */
+}
+
+.food-expenses {
+    flex: 1; /* Chiếm ít diện tích hơn */
+    text-align: center;
+}
+
+.transport {
+    margin-top: 20px;
+}
+
+.transport-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.transport, .transport-expenses, .transport {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.transport {
+    flex: 2; /* Chiếm phần lớn diện tích */
+}
+
+.transport-expenses {
+    flex: 1; /* Chiếm ít diện tích hơn */
+    text-align: center;
+}

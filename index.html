@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Nhận diện giọng nói</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Phần giao diện ăn uống -->
+            <div class="food-section">
+                <div class="food">
+                    <h1>Ăn uống</h1>
+                    <div id="food-content">Nội dung ăn uống: </div>
+                </div>
+                <div class="food-expenses">
+                    <h1>Số tiền ăn uống</h1>
+                    <div id="total-food-expense">0 VND</div>
+                </div>
+            </div>
+            
+            <!-- Phần giao diện đi lại -->
+            <div class="transport-section">
+                <div class="transport">
+                    <h1>Đi lại</h1>
+                    <div id="transport-content">Nội dung đi lại: </div>
+                </div>
+                <div class="transport-expenses">
+                    <h1>Số tiền đi lại</h1>
+                    <div id="total-transport-expense">0 VND</div>
+                </div>
+            </div>
+           
+        </div>
+
+         <!-- Phần bật micro -->
+        <div class="container">
+            <h1>Bật micro</h1>
+            <button id="mic-button" class="mic-button">Bật micro</button>
+            <p id="status">Trạng thái: Tắt</p>
+            <div id="result"></div>
+
+             <!-- Thêm nút "Xóa nội dung để nói lại" -->
+            <button id="reset-button" class="reset-button">Xóa nội dung để nói lại</button>
+            
+             <!-- Thêm nút "OK" để lưu nội dung -->
+             <button id="save-button" class="save-button">OK</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+</>
